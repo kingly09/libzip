@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC0113941C2415CC002DB67B /* 64798928-A827-4330-BF34-92B9A8187214_0007.cw.zip in Resources */ = {isa = PBXBuildFile; fileRef = BC0113931C2415CC002DB67B /* 64798928-A827-4330-BF34-92B9A8187214_0007.cw.zip */; };
 		BC2E088F1C22BA9F00611AD2 /* C4A307AA-0702-4917-B5BD-C977EEFABADC_0000.zip in Resources */ = {isa = PBXBuildFile; fileRef = BC2E088E1C22BA9F00611AD2 /* C4A307AA-0702-4917-B5BD-C977EEFABADC_0000.zip */; };
 		BC2E08A71C23A94800611AD2 /* LBZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2E08A61C23A94800611AD2 /* LBZipArchive.m */; };
 		BC2E08A91C23AD8E00611AD2 /* Unicode.zip in Resources */ = {isa = PBXBuildFile; fileRef = BC2E08A81C23AD8E00611AD2 /* Unicode.zip */; };
@@ -44,6 +45,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC0113931C2415CC002DB67B /* 64798928-A827-4330-BF34-92B9A8187214_0007.cw.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "64798928-A827-4330-BF34-92B9A8187214_0007.cw.zip"; sourceTree = "<group>"; };
 		BC2E088E1C22BA9F00611AD2 /* C4A307AA-0702-4917-B5BD-C977EEFABADC_0000.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "C4A307AA-0702-4917-B5BD-C977EEFABADC_0000.zip"; sourceTree = "<group>"; };
 		BC2E08A51C23A94800611AD2 /* LBZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBZipArchive.h; sourceTree = "<group>"; };
 		BC2E08A61C23A94800611AD2 /* LBZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBZipArchive.m; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 			children = (
 				BCE70FA41C1FCAF100C2155F /* libz.1.2.5.tbd */,
 				BC2E08A81C23AD8E00611AD2 /* Unicode.zip */,
+				BC0113931C2415CC002DB67B /* 64798928-A827-4330-BF34-92B9A8187214_0007.cw.zip */,
 				BC2E088E1C22BA9F00611AD2 /* C4A307AA-0702-4917-B5BD-C977EEFABADC_0000.zip */,
 				BCE70F291C1FC25B00C2155F /* libzip */,
 				BCE70F281C1FC25B00C2155F /* Products */,
@@ -328,6 +331,7 @@
 				BCE70F3A1C1FC25B00C2155F /* LaunchScreen.storyboard in Resources */,
 				BC2E08A91C23AD8E00611AD2 /* Unicode.zip in Resources */,
 				BC2E088F1C22BA9F00611AD2 /* C4A307AA-0702-4917-B5BD-C977EEFABADC_0000.zip in Resources */,
+				BC0113941C2415CC002DB67B /* 64798928-A827-4330-BF34-92B9A8187214_0007.cw.zip in Resources */,
 				BCE70F371C1FC25B00C2155F /* Assets.xcassets in Resources */,
 				BCE70F351C1FC25B00C2155F /* Main.storyboard in Resources */,
 			);

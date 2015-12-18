@@ -30,7 +30,7 @@
     
     //[self test01ZipAndUnzip];
     
-    [self testUnzippingWithUnicodeFilenameInside];
+    [self testunzip];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -175,7 +175,7 @@
 
 -(void)testunzip{
 
-    NSString *zipPath = [[NSBundle bundleForClass:[self class]] pathForResource:@"C4A307AA-0702-4917-B5BD-C977EEFABADC_0000" ofType:@"zip"];
+    NSString *zipPath = [[NSBundle bundleForClass:[self class]] pathForResource:@"64798928-A827-4330-BF34-92B9A8187214_0007.cw" ofType:@"zip"];
     NSString *outputPath = [LBZipArchive cachesPath:@""];
     
     NSLog(@"zipPath::%@",zipPath);
@@ -196,6 +196,8 @@
     NSMutableData *data1= [[NSMutableData alloc] initWithLength:info1.length];
     NSUInteger bytesRead1= [read1 readDataWithBuffer:data1];
     
+    
+    //或者unsigned long encode = CFStringConvertEncodingToNSStringEncoding(kCFStringEncodingGB_18030_2000);
     
     NSString *fileText1= [[NSString alloc] initWithBytes:[data1 bytes] length:bytesRead1 encoding:NSUTF8StringEncoding];
     
