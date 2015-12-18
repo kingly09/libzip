@@ -30,7 +30,7 @@
     
     //[self test01ZipAndUnzip];
     
-    [self testunzip];
+    [self testUnzippingWithUnicodeFilenameInside];
 }
 
 - (void)didReceiveMemoryWarning {

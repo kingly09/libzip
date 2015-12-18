@@ -40,12 +40,12 @@
     return [self unzipFileAtPath:path toDestination:destination overwrite:overwrite password:password error:error delegate:nil progressHandler:nil completionHandler:nil];
 }
 
-+ (BOOL)unzipFileAtPath:(NSString *)path toDestination:(NSString *)destination delegate:(id<SSZipArchiveDelegate>)delegate
++ (BOOL)unzipFileAtPath:(NSString *)path toDestination:(NSString *)destination delegate:(id<LBZipArchiveDelegate>)delegate
 {
     return [self unzipFileAtPath:path toDestination:destination overwrite:YES password:nil error:nil delegate:delegate progressHandler:nil completionHandler:nil];
 }
 
-+ (BOOL)unzipFileAtPath:(NSString *)path toDestination:(NSString *)destination overwrite:(BOOL)overwrite password:(NSString *)password error:(NSError **)error delegate:(id<SSZipArchiveDelegate>)delegate
++ (BOOL)unzipFileAtPath:(NSString *)path toDestination:(NSString *)destination overwrite:(BOOL)overwrite password:(NSString *)password error:(NSError **)error delegate:(id<LBZipArchiveDelegate>)delegate
 {
     return [self unzipFileAtPath:path toDestination:destination overwrite:overwrite password:password error:error delegate:delegate progressHandler:nil completionHandler:nil];
 }
@@ -73,7 +73,7 @@
               overwrite:(BOOL)overwrite
                password:(NSString *)password
                   error:(NSError **)error
-               delegate:(id<SSZipArchiveDelegate>)delegate
+               delegate:(id<LBZipArchiveDelegate>)delegate
         progressHandler:(void (^)(NSString *entry, unz_file_info zipInfo, long entryNumber, long total))progressHandler
       completionHandler:(void (^)(NSString *path, BOOL succeeded, NSError *error))completionHandler
 {
