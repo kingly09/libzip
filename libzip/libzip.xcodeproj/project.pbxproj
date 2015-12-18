@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC2E088F1C22BA9F00611AD2 /* C4A307AA-0702-4917-B5BD-C977EEFABADC_0000.zip in Resources */ = {isa = PBXBuildFile; fileRef = BC2E088E1C22BA9F00611AD2 /* C4A307AA-0702-4917-B5BD-C977EEFABADC_0000.zip */; };
+		BC2E08A71C23A94800611AD2 /* LBZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2E08A61C23A94800611AD2 /* LBZipArchive.m */; };
+		BC2E08A91C23AD8E00611AD2 /* Unicode.zip in Resources */ = {isa = PBXBuildFile; fileRef = BC2E08A81C23AD8E00611AD2 /* Unicode.zip */; };
 		BCE70F2C1C1FC25B00C2155F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE70F2B1C1FC25B00C2155F /* main.m */; };
 		BCE70F2F1C1FC25B00C2155F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE70F2E1C1FC25B00C2155F /* AppDelegate.m */; };
 		BCE70F321C1FC25B00C2155F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE70F311C1FC25B00C2155F /* ViewController.m */; };
@@ -41,6 +44,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC2E088E1C22BA9F00611AD2 /* C4A307AA-0702-4917-B5BD-C977EEFABADC_0000.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "C4A307AA-0702-4917-B5BD-C977EEFABADC_0000.zip"; sourceTree = "<group>"; };
+		BC2E08A51C23A94800611AD2 /* LBZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBZipArchive.h; sourceTree = "<group>"; };
+		BC2E08A61C23A94800611AD2 /* LBZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBZipArchive.m; sourceTree = "<group>"; };
+		BC2E08A81C23AD8E00611AD2 /* Unicode.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = Unicode.zip; sourceTree = "<group>"; };
 		BCE70F271C1FC25B00C2155F /* libzip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = libzip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE70F2B1C1FC25B00C2155F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BCE70F2D1C1FC25B00C2155F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -125,10 +132,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC2E08A01C23A6E400611AD2 /* LBZip */ = {
+			isa = PBXGroup;
+			children = (
+				BC2E08A51C23A94800611AD2 /* LBZipArchive.h */,
+				BC2E08A61C23A94800611AD2 /* LBZipArchive.m */,
+			);
+			name = LBZip;
+			sourceTree = "<group>";
+		};
 		BCE70F1E1C1FC25B00C2155F = {
 			isa = PBXGroup;
 			children = (
 				BCE70FA41C1FCAF100C2155F /* libz.1.2.5.tbd */,
+				BC2E08A81C23AD8E00611AD2 /* Unicode.zip */,
+				BC2E088E1C22BA9F00611AD2 /* C4A307AA-0702-4917-B5BD-C977EEFABADC_0000.zip */,
 				BCE70F291C1FC25B00C2155F /* libzip */,
 				BCE70F281C1FC25B00C2155F /* Products */,
 			);
@@ -145,6 +163,7 @@
 		BCE70F291C1FC25B00C2155F /* libzip */ = {
 			isa = PBXGroup;
 			children = (
+				BC2E08A01C23A6E400611AD2 /* LBZip */,
 				BCE70F861C1FC49000C2155F /* Objective-Zip */,
 				BCE70F6B1C1FC33100C2155F /* minizip */,
 				BCE70F411C1FC27C00C2155F /* zlib */,
@@ -307,6 +326,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCE70F3A1C1FC25B00C2155F /* LaunchScreen.storyboard in Resources */,
+				BC2E08A91C23AD8E00611AD2 /* Unicode.zip in Resources */,
+				BC2E088F1C22BA9F00611AD2 /* C4A307AA-0702-4917-B5BD-C977EEFABADC_0000.zip in Resources */,
 				BCE70F371C1FC25B00C2155F /* Assets.xcassets in Resources */,
 				BCE70F351C1FC25B00C2155F /* Main.storyboard in Resources */,
 			);
@@ -320,6 +341,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCE70F6A1C1FC27C00C2155F /* zutil.c in Sources */,
+				BC2E08A71C23A94800611AD2 /* LBZipArchive.m in Sources */,
 				BCE70F801C1FC36900C2155F /* ioapi.c in Sources */,
 				BCE70F671C1FC27C00C2155F /* inftrees.c in Sources */,
 				BCE70F9F1C1FC49000C2155F /* OZFileInZipInfo.m in Sources */,
@@ -494,6 +516,7 @@
 				BCE70F401C1FC25B00C2155F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
